@@ -1,0 +1,26 @@
+# ===== 通知服务切换 =====
+# provider: inmemory (默认) / wechat / dingtalk
+# 切换后只改这一行 + 拉对应 SDK，业务代码不动
+demo:
+  notification:
+    provider: inmemory
+
+spring:
+  application:
+    name: demo
+  jackson:
+    default-property-inclusion: non_null
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/skilldemo
+    driver-class-name: org.postgresql.Driver
+    username: maimai
+    password: ServBay.dev
+  sql:
+    init:
+      mode: always
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    defer-datasource-initialization: true
+    open-in-view: false
