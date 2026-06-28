@@ -2,7 +2,7 @@
 
 > [English Docs](README.md)
 
-Spring Boot 3.2 + DDD 六模块架构示例，包含两套仓储风格的对比实现。
+一个务实的 DDD（领域驱动设计）示例项目，基于 Spring Boot 3.2。展示六模块分层架构、聚合设计、领域事件、CQRS，以及两套仓储实现风格的对比。
 
 ## 架构图
 

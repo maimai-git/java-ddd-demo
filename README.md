@@ -2,7 +2,7 @@
 
 > [中文文档](README_CN.md)
 
-Spring Boot 3.2 + DDD six-module architecture demo, with two repository implementation styles compared side by side.
+A practical DDD (Domain-Driven Design) example built with Spring Boot 3.2. Demonstrates six-module layered architecture, aggregate design, domain events, CQRS, and two repository implementation styles for comparison.
 
 ## Architecture
 
